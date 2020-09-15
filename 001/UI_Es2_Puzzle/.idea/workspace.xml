@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9eb62acd-b79f-4892-bc98-5f6f5ef60e6b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XCMGy052sRynMuSQQ6i2D5Kwbf" />
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CSS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SCUOLA\QUARTO ANNO\T.P.S.I.T\ESERCIZI\JQUERY\UI_Es2_Puzzle\CSS" />
+      <recent name="E:\SCUOLA\QUARTO ANNO\T.P.S.I.T\ESERCIZI\JQUERY\UI_Es2_Puzzle\JS" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SCUOLA\QUARTO ANNO\T.P.S.I.T\ESERCIZI\JQUERY\UI_Es2_Puzzle\CSS" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9eb62acd-b79f-4892-bc98-5f6f5ef60e6b" name="Default Changelist" comment="" />
+      <created>1580545530422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580545530422</updated>
+      <workItem from="1580545531623" duration="1790000" />
+      <workItem from="1580656720147" duration="348000" />
+      <workItem from="1581146048731" duration="600000" />
+      <workItem from="1581146702779" duration="2625000" />
+      <workItem from="1581150441611" duration="31000" />
+      <workItem from="1587046140128" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
