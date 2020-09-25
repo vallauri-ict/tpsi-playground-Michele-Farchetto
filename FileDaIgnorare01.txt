@@ -1,0 +1,2 @@
+Io son un file da ingorare per GIT.
+Non sarò sottoposto a versioning
