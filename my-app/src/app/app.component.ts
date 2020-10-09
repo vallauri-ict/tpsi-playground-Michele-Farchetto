@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+// @ = decorator
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,7 +10,7 @@ export class AppComponent {
   myName = 'Michele Farchetto'
 
   changeName(){
-    this.myName = this.myName[this.getRandomInt(1,6)];
+    this.myName = this.names[this.getRandomInt(0,5)];
     //this.names[Math.floor((Math.random() * this.names.length))] è l'alternatian javascript
   }
 
