@@ -1,6 +1,18 @@
-<button class="btn btn-Primary" style="border-color: blue;" [disable] = "allowNewServer" > ADD SERVER </button>
+<label> SERVER NAME </label>
+<input type="text" 
+        class="form-control" 
+        (input) ="onUpdateServerName($event)">
+<br>
+<!-- $EVENT SERVER PER PASSARE al type script tette le  info dell'evento scatenato ed è una sintassi standard-->
+<button class="btn btn-Primary" 
+        style="background-color: lightblue;" 
+        [disabled] = "!allowNewServer" 
+        (click)="onCreateServer()"> 
+        ADD SERVER </button>
+<!-- (click) = "function()" è un data binding di angular, quindi non si può usare l'onclick -->
 <hr>
-
+{{ serverCreationStatus }}
+<hr>
 <h3>MY SERVERS LIST: </h3>
 <hr>
 <!-- ripetisione dei server-->

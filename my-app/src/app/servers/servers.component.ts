@@ -1,3 +1,4 @@
+import { analyzeAndValidateNgModules } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -10,14 +11,25 @@ import { Component, OnInit } from '@angular/core';
 export class ServersComponent implements OnInit {
 
   allowNewServer: boolean = false;
+  serverCreationStatus: string = 'No server was created';
+  serverName:string ='';
 
   constructor() {
     setTimeout(() => {
-      this.allowNewServer = ! this.allowNewServer;
+      this.allowNewServer = true;
     }, 2000);
    }
 
   ngOnInit(): void {
+  }
+  //on èsolo per chiarezza
+  onCreateServer(){
+      this.serverCreationStatus = 'Server ' + this.serverName + ' was create !';
+  }
+
+  onUpdateServerName(event: any){
+    //console.log(event.taget.value);
+    this.serverName = event.target.value;
   }
 
 }
