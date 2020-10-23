@@ -1,7 +1,11 @@
 <label> SERVER NAME </label>
-<input type="text" 
+<!--<input type="text" 
         class="form-control" 
-        (input) ="onUpdateServerName($event)">
+        (input) ="onUpdateServerName($event)"> 
+-->
+<input type="text" 
+    class="form-control" 
+    [(ngModel)] = 'serverName'>
 <br>
 <!-- $EVENT SERVER PER PASSARE al type script tette le  info dell'evento scatenato ed è una sintassi standard-->
 <button class="btn btn-Primary" 
@@ -21,4 +25,3 @@
 <app-server></app-server>
 <hr>
 <app-server></app-server>
-
