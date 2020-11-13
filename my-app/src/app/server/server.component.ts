@@ -1,4 +1,4 @@
-//file creato grazie alla giuda UDEMY
+//file creato grazie alla GUIDA UDEMY
 import { Component } from '@angular/core';
 @Component({
     //definire il selettore
@@ -10,7 +10,7 @@ export class ServerComponent{
     serverId: number = 10;
     serverStatus: string = '';
 
-    getServerStatus(){
+    setServerStatus(){
         //if-else abbreviato
         this.serverStatus = this.getRandomInt(0,1) == 0 ? 'offline' : 'online';
         this.serverId = this.getRandomInt(1,100);
@@ -19,5 +19,9 @@ export class ServerComponent{
 
     getRandomInt(min,max){
         return Math.floor(Math.random() * (max-min+1))+min;
-      }
+    }
+
+    getColor(){
+        return this.serverStatus === 'offline' ? 'red' : 'green';
+    }
 }
