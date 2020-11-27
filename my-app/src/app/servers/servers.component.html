@@ -5,12 +5,10 @@
 -->
 <input type="text" 
     class="form-control" 
-    [(ngModel)] = 'serverName'
-    placeholder="-digita qui il nome del nuovo server-">
+    [(ngModel)] = 'serverName'>
 <br>
 <!-- $EVENT SERVER PER PASSARE al type script tette le  info dell'evento scatenato ed è una sintassi standard-->
 <button class="btn btn-Primary" 
-        style="background-color: lightblue;" 
         [disabled] = "!allowNewServer" 
         (click)="onCreateServer()"> 
         ADD SERVER </button>
@@ -20,15 +18,13 @@
 <hr>-->
 <h3>MY SERVERS LIST: </h3>
 <hr>
-<p *ngIf = "serverCreated; else noServer">server was created , server  name is {{serverName}}</p>
+<p *ngIf = "serverCreated; else noServer">server was created , server  name is {{ serverName }}</p>
 <!--<p *ngIf = "!serverCreated">no server was created !</p> -->
 <ng-template #noServer>
         <p>No server was created</p>
 </ng-template>
 <hr>
 <!-- ripetisione dei server-->
-<app-server></app-server>
+<app-server *ngFor = "let item of servers; let i = index"
+ [ngStyle] = "{opacity: i > 1 ? 1 : 0.6}"></app-server>
 <hr>
-<app-server></app-server>
-<hr>
-<app-server></app-server>

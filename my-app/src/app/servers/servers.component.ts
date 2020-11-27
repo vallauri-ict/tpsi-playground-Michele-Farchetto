@@ -12,8 +12,9 @@ export class ServersComponent implements OnInit {
 
   allowNewServer: boolean = false;
   serverCreationStatus: string = 'No server was created';
-  //serverName:string ='-digita qui il nome del nuovo server-';
+  serverName:string ='-digita qui il nome del nuovo server-';
   serverCreated = false;
+  servers = ['Laplace','Pascal']
 
   constructor() {
     setTimeout(() => {
@@ -29,6 +30,7 @@ export class ServersComponent implements OnInit {
       //this.serverCreationStatus = 'Server ' + this.serverName + ' was create !';
       //this.serverName = '-digita qui il nome del nuovo server-';
       this.serverCreated = true;
+      this.servers.push(this.serverName);
   }
 /*
   onUpdateServerName(event: any){
